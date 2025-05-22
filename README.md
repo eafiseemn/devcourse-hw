@@ -68,7 +68,7 @@ git reset --hard/soft <돌아갈 버전의 해시코드>
 - Remote Repository에 Push
 
 ```bash
-git remote add origin https://github.com/eafiseemn/{repository}
+git remote add origin https://github.com/{account_name}/{repository}
 git branch -M main
 git push -u origin main
 ```
