@@ -9,6 +9,12 @@
 
 **[주요 CLI 명령어]**
 
+- 리포지토리 초기화
+
+```bash
+git init
+```
+
 - 변경 내용 스테이징
 
 ```bash
@@ -57,4 +63,12 @@ git log --oneline # 간략 버전
 
 # 리셋
 git reset --hard/soft <돌아갈 버전의 해시코드>
+```
+
+- Remote Repository에 Push
+
+```bash
+git remote add origin https://github.com/eafiseemn/{repository}
+git branch -M main
+git push -u origin main
 ```
