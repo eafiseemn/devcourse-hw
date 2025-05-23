@@ -32,13 +32,13 @@ git commit -am '<커밋 이름>' # 변경 내용 스테이징 & 커밋 동시에
 - Branch 생성
 
 ```bash
-git checkout -b <신규 브랜치 이름>
+git switch -c <신규 브랜치 이름>
 ```
 
 - Branch간 이동
 
 ```bash
-git checkout <이동할 브랜치 이름>
+git switch <이동할 브랜치 이름>
 ```
 
 - Branch 병합(Merge)
