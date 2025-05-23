@@ -69,6 +69,8 @@ git reset --hard/soft <돌아갈 버전의 해시코드>
 
 ```bash
 git remote add origin https://github.com/{account_name}/{repository}
-git branch -M main
+    # origin은 내 remote repository 이름 (다른 사람 저장소는 upstream 으로 관리하기도 함)
+    # 연결된 저장소 삭제 시에는 git remote remove <저장소 이름>
+git branch -M main # -m 은 branch 이름 변경 / -M 은 강제 변경
 git push -u origin main
 ```
